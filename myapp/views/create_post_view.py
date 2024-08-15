@@ -13,7 +13,7 @@ def create_post(request):
             data = {
                 'titulo': form.cleaned_data['titulo'],
                 'conteudo': form.cleaned_data['conteudo'],
-                'autor_id': 1   # Substitua com o ID real do autor se necessário
+                'autor_id': 18   # Substitua com o ID real do autor se necessário
             }
            
             try:
